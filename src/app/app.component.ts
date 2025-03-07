@@ -8,5 +8,12 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'My-Profile';
+  
+  title = 'Dev-Porfolio';
+
+  navInicio = "Home";
+  navAbaout = "Abaout";
+  navSkills = "Skills";
+  navProyects = "Proyects";
+  navContact = "Contact";
 }

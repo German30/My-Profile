@@ -1,0 +1,27 @@
+.div-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #5d5d5d1f;
+    padding-bottom: 20px;
+}
+
+.div-nav .title {
+    text-decoration: none;
+    color: #ffc107;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 1%;
+}
+
+.nav-top {
+    display: flex;
+    gap: 20px;
+    padding-right: 1%;
+}
+
+.nav-top a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
