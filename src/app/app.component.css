@@ -47,3 +47,13 @@
     color: #ffc107;
     font-weight: 100;
 }
+
+.sub-title {
+    padding-left: 2.5%;
+    color: #1976d2;
+}
+
+.sub-title h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
