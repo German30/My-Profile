@@ -11,17 +11,39 @@
     color: #ffc107;
     font-weight: 700;
     font-size: 24px;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 
 .nav-top {
     display: flex;
     gap: 20px;
-    padding-right: 1%;
+    padding-right: 2%;
 }
 
 .nav-top a {
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
+}
+
+.header {
+    padding-top: 20%;
+    padding-left: 2%;
+}
+
+.header-welcome h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.color-first-text {
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.color-second-text {
+    font-size: 60px;
+    color: #ffc107;
+    font-weight: 100;
 }

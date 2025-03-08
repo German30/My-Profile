@@ -1,11 +1,18 @@
 <div class="div-nav">
     <a class="title" href="">{{title}}</a>
     <nav class="nav-top">
-        <a href="">{{navInicio}}</a>
-        <a href="">{{navAbaout}}</a>
-        <a href="">{{navSkills}}</a>
-        <a href="">{{navProyects}}</a>
-        <a href="">{{navContact}}</a>
+        <a appHoverAnimation href="">{{navInicio}}</a>
+        <a appHoverAnimation href="">{{navAbaout}}</a>
+        <a appHoverAnimation href="">{{navSkills}}</a>
+        <a appHoverAnimation href="">{{navProyects}}</a>
+        <a appHoverAnimation href="">{{navContact}}</a>
     </nav>
 </div>
+
+<section>
+    <div class="header-welcome header">
+        <h1 class="color-first-text">{{titleSecondWelcome}}</h1>
+        <h1 class="color-second-text">{{titlethirtWelcome}}</h1>
+    </div>
+</section>
 <router-outlet />
