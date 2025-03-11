@@ -9,13 +9,16 @@
     </nav>
 </div>
 
-<section>
+<section class="section-one">
     <div class="header-welcome header">
         <h1 class="color-first-text">{{titleSecondWelcome}}</h1>
         <h1 class="color-second-text">{{titlethirtWelcome}}</h1>
-    </div>
-    <div class="sub-title">
-        <h2>{{text}}</h2>
+        <div class="sub-title">
+            <h2>{{text}}<span class="cursor" [class.blinking]="showCursor">_</span></h2>
+        </div>
+    </div> 
+    <div class="icons-software">
+
     </div>
 </section>
 <router-outlet />

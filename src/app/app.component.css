@@ -37,6 +37,10 @@
     padding: 0 10px;
 }
 
+.header-welcome {
+    flex: 1;
+}
+
 .color-first-text {
     color: #ffffff;
     font-size: 60px;
@@ -48,6 +52,12 @@
     font-weight: 100;
 }
 
+.section-one {
+    display: flex;
+    align-items: flex-start;
+    gap: 1px;
+}
+
 .sub-title {
     padding-left: 2.5%;
     color: #1976d2;
@@ -56,4 +66,36 @@
 .sub-title h2 {
     font-size: 30px;
     font-weight: 100;
+}
+
+.cursor {
+    display: inline-block;
+    width: 1px;
+    color: #ffffff;
+    margin-left: 2px;
+    opacity: 1;
+}
+
+.blinking {
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
+.icons-software {
+    width: 1100px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    margin-top: 20px;
 }
