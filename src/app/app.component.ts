@@ -1,9 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HoverAnimationDirective } from './hover-animation-nav/hover-animation.directive';
+import { IconModule, IconSetService } from '@coreui/icons-angular';
+import { cibSpring, cibAngular, cibDotNet, cibPostgresql, cibMysql, cibGithub } from '@coreui/icons';
+
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HoverAnimationDirective],
+  imports: [RouterOutlet, HoverAnimationDirective, IconModule ],
+  providers: [IconSetService],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
@@ -31,6 +35,10 @@ export class AppComponent {
   typingSpeed: number = 100;
   backspaceSpeed: number = 50;
   showCursor: boolean = false;
+
+  constructor(private iconSetService: IconSetService) {
+    iconSetService.icons = { cibSpring, cibAngular, cibDotNet, cibPostgresql, cibMysql, cibGithub };
+  }
 
   ngOnInit(): void {
     this.startAnimation();
