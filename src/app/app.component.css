@@ -99,3 +99,7 @@
     border: 1px solid #fff;
     margin-top: 20px;
 }
+
+.icon{
+    all: unset;
+}

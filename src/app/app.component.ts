@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HoverAnimationDirective } from './hover-animation-nav/hover-animation.directive';
 import { IconModule, IconSetService } from '@coreui/icons-angular';
-import { cibSpring, cibAngular, cibDotNet, cibPostgresql, cibMysql, cibGithub } from '@coreui/icons';
+import { cibSpring, cibAngular, cibDotNet, cibPostgresql, cibMysql, cibGithub, cibFilezilla, cibUbuntu, cibPostman, cibAndroidAlt } from '@coreui/icons';
 
 @Component({
   selector: 'app-root',
@@ -37,7 +37,7 @@ export class AppComponent {
   showCursor: boolean = false;
 
   constructor(private iconSetService: IconSetService) {
-    iconSetService.icons = { cibSpring, cibAngular, cibDotNet, cibPostgresql, cibMysql, cibGithub };
+    iconSetService.icons = { cibSpring, cibAngular, cibDotNet, cibPostgresql, cibMysql, cibGithub, cibFilezilla, cibUbuntu, cibPostman, cibAndroidAlt };
   }
 
   ngOnInit(): void {

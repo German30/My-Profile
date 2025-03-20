@@ -2,3 +2,40 @@ body {
     background-color: #212121;
     font-family: 'Source Sans Pro';
 }
+
+.icon {
+    position: absolute !important;
+    font-size: 48px !important;
+    animation: float 3s ease-in-out infinite !important;
+    height: 10% !important;
+    width: 10% !important;
+}
+
+/*@keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }*/
+
+.icon:nth-child(1) {
+    top: 34% !important;
+    left: 46% !important;
+  }
+
+  .icon:nth-child(2) {
+    top: 54% !important;
+    left: 59% !important;
+  }
+  
+  .icon:nth-child(3) {
+    top: 41% !important;
+    left: 72% !important;
+  }
+
+  .icon:nth-child(4) {
+    top: 27% !important;
+    left: 86% !important;
+  }
