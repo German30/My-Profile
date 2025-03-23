@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HoverAnimationDirective } from './hover-animation-nav/hover-animation.directive';
 import { IconModule, IconSetService } from '@coreui/icons-angular';
@@ -11,7 +11,7 @@ import { cibSpring, cibAngular, cibDotNet, cibPostgresql, cibMysql, cibGithub, c
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
-export class AppComponent {
+export class AppComponent{
 
   title = 'Dev-Portfolio';
 
@@ -20,6 +20,10 @@ export class AppComponent {
   navSkills = "Skills";
   navProyects = "Proyects";
   navContact = "Contact";
+  navSectionSecond = "About Me";
+  title3 = "Un Apasionado de la Programación";
+  text1 = "Soy un programador con 4 años de experiencia en la creación de aplicaciones web y software. Mi pasión por la programación se combina con sólidas habilidades en Java, HTML, CSS,  Angular.";
+  text2 = "Además, tengo experiencia en la gestión de proyectos utilizando herramientas como Microsoft Project y Trello. Mi enfoque en la resolución de problemas y la entrega de soluciones de alta calidad incluyendo el desarrollo de aplicaciones de control de acceso y sistemas de inventario.";
 
   titleSecondWelcome = "Hi, I'm";
   titlethirtWelcome = "Germán Celestino";
@@ -35,6 +39,18 @@ export class AppComponent {
   typingSpeed: number = 100;
   backspaceSpeed: number = 50;
   showCursor: boolean = false;
+
+  dataTitle1 = "Name:";
+  dataTitle2 = "Location";
+  dataTitle3 = "Email";
+  dataTitle4 = "Status";
+  
+  dataText1 = "Germán Marcelo Celestino Chávez";
+  dataText2 = "Monterrey, N.L";
+  dataText3 = "germancelestino98@gmail.com";
+  dataText4 = "Bajo contrato de tiempo completo";
+
+  btnDownload = "Download CV";
 
   constructor(private iconSetService: IconSetService) {
     iconSetService.icons = { cibSpring, cibAngular, cibDotNet, cibPostgresql, cibMysql, cibGithub, cibFilezilla, cibUbuntu, cibPostman, cibAndroidAlt };
@@ -80,3 +96,4 @@ export class AppComponent {
     }, this.backspaceSpeed);
   }
 }
+   

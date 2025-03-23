@@ -9,33 +9,64 @@ body {
     animation: float 3s ease-in-out infinite !important;
     height: 10% !important;
     width: 10% !important;
+    color: #fff !important;
 }
 
-/*@keyframes float {
+@keyframes float {
     0%, 100% {
       transform: translateY(0);
     }
     50% {
       transform: translateY(-20px);
     }
-  }*/
+  }
 
 .icon:nth-child(1) {
-    top: 34% !important;
+    top: 14% !important;
     left: 46% !important;
   }
 
   .icon:nth-child(2) {
-    top: 54% !important;
+    top: 24% !important;
     left: 59% !important;
   }
   
   .icon:nth-child(3) {
-    top: 41% !important;
+    top: 20% !important;
     left: 72% !important;
   }
 
   .icon:nth-child(4) {
-    top: 27% !important;
+    top: 12% !important;
     left: 86% !important;
+  }
+
+  .icon:nth-child(5) {
+    top: 75% !important;
+    left: 46% !important;
+  }
+
+  .icon:nth-child(6) {
+    top: 55% !important;
+    left: 59% !important;
+  }
+
+  .icon:nth-child(7) {
+    top: 70% !important;
+    left: 74% !important;
+  }
+
+  .icon:nth-child(8) {
+    top: 80% !important;
+    left: 90% !important;
+  }
+
+  .icon:nth-child(9) {
+    top: 45% !important;
+    left: 80% !important;
+  }
+
+  .icon:nth-child(10) {
+    top: 45% !important;
+    left: 50% !important;
   }
