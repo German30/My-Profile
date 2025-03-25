@@ -52,6 +52,11 @@ export class AppComponent{
 
   btnDownload = "Download CV";
 
+  extTitle = "Mis Estudios y Certificados";
+  expSubTitle = "Universidad Tecmilenio";
+  expCarrer = "Ingeniería de software.";
+  expYear = "ago. 2017 -  mar. 2021";
+
   constructor(private iconSetService: IconSetService) {
     iconSetService.icons = { cibSpring, cibAngular, cibDotNet, cibPostgresql, cibMysql, cibGithub, cibFilezilla, cibUbuntu, cibPostman, cibAndroidAlt };
   }

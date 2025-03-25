@@ -185,3 +185,38 @@
     transform: scale(0.95);
     transition: transform 0.1s ease;
 }
+
+.exp-title {
+    color: #ffc107;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.exp-section-1 {
+    width: 315px;
+    height: 230px;
+    border: 1px solid #5d5d5d1f;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.expSubTitle {
+    color: #1976d2;
+    font-size: 24px;
+    padding: 8%;
+}
+
+.expCarrer {
+    color: #f5f5e6f5;
+    font-size: 16px;
+    margin-top: -7%;
+    margin-left: 9%;
+}
+
+.expYear {
+    color: #f5f5e6f5;
+    font-size: 16px;
+    margin-left: 9%;
+}
